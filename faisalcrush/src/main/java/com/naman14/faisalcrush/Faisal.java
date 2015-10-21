@@ -11,7 +11,10 @@ public class Faisal {
     private CrushType crushType;
 
     public enum CrushType {
-        EXCEPTION, ERROR, DEFAULT;
+        EXCEPTION, ERROR, DEFAULT,
+
+        @Deprecated
+        SPECIAL
     }
 
     public Faisal() {
@@ -45,6 +48,10 @@ public class Faisal {
                 if (elements != null)
                     error.setStackTrace(elements);
                 throw error;
+
+            case SPECIAL:
+                @SuppressWarnings("NumericOverflow")
+                int faisal = 3 / 0;
 
 
             case DEFAULT:
