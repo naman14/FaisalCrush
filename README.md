@@ -37,4 +37,4 @@ Faisal makes your app crash. So next time other team members comes looking for y
         //crush it!
   builder.build().crush();
   ```
-  
+  (Wanted to do something funny in free time and this is totally a useless thing and do not take this seriously)
