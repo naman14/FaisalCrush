@@ -1,5 +1,10 @@
 # FaisalCrush
 
+
+*Copy kare agar koi design to                    
+App main uski crash kara doon  
+                - Archit Verma*
+
 A damn easy way to crash your app
 
 Imagine you are at a hackathon and you are building the best app among competition (or you think).  
